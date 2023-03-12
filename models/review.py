@@ -1,18 +1,14 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+""" holds class Review"""
 from models.base_model import BaseModel
-from models.place import Place
-from models.user import User
-"""
-Module class: Review
-"""
 
 
 class Review(BaseModel):
-    """definition for class Review"""
-    text = ""
+    """Representation of Review """
     place_id = ""
     user_id = ""
+    text = ""
 
     def __init__(self, *args, **kwargs):
-        """ constructor method """
-        super().__init__(self, *args, **kwargs)
+        """initializes Review"""
+        super().__init__(*args, **kwargs)

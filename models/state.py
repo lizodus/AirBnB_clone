@@ -1,14 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+""" holds class State"""
 from models.base_model import BaseModel
-"""
-Module class: State
-"""
 
 
 class State(BaseModel):
-    """definition for class State"""
+    """Representation of state """
     name = ""
 
     def __init__(self, *args, **kwargs):
-        """ constructor method """
-        super().__init__(self, *args, **kwargs)
+        """initializes state"""
+        super().__init__(*args, **kwargs)

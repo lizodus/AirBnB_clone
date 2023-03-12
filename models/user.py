@@ -1,15 +1,15 @@
-#!/usr/bin/python3
-"""user class
-"""
-
+#!/usr/bin/python
+""" holds class User"""
 from models.base_model import BaseModel
-import json
 
 
 class User(BaseModel):
-    '''base model class'''
-
+    """Representation of a user """
     email = ""
     password = ""
     first_name = ""
     last_name = ""
+
+    def __init__(self, *args, **kwargs):
+        """initializes user"""
+        super().__init__(*args, **kwargs)
