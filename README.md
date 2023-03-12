@@ -92,8 +92,7 @@ EOF  help  quit
 (hbnb)
 $
 ```
-Your shell should work like this in interactive mode:
-```
+
 $ ./console.py
 (hbnb)help
 
@@ -107,9 +106,6 @@ EOF  all  count  create  destroy  help  nothing  quit  show  update
 $ 
 ```
 
-But also in non-interactive mode: (like the Shell project in C)
-
-```
 
 All tests should also pass in non-interactive mode: 
 
@@ -122,8 +118,7 @@ Ran 52 tests in 0.021s
 OK
 ```
 
-
-## Tasks
+# Tasks 
 
 ## 0. README, AUTHORS  [ README.md, AUTHORS ]
   Write a README.md:
