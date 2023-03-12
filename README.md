@@ -339,9 +339,8 @@ Errors management must be the same as previously.
 (hbnb)
 (hbnb) User.show("38f22813-2753-4d42-b37c-57a17f1e4f88")
 
+. {'first_name': "John", "age": 89})   [ tests/test_console.py ] 
 
-## 17. {'first_name': "John", "age": 89})   [ tests/test_console.py ] 
-
-Contributors:
+## 17. Contributors:
 1. Kofoworola Odutola
 ..........................................................................................................................
