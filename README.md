@@ -93,19 +93,6 @@ EOF  help  quit
 $
 ```
 
-$ ./console.py
-(hbnb)help
-
-Documented commands (type help <topic>):
-========================================
-EOF  all  count  create  destroy  help  nothing  quit  show  update
-
-(hbnb)
-(hbnb) 
-(hbnb)quit
-$ 
-```
-
 
 All tests should also pass in non-interactive mode: 
 
